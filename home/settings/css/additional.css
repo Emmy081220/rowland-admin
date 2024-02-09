@@ -1,0 +1,89 @@
+.overviewMenu {
+    transition: .4s;
+}
+
+.personal-details-container {
+    border: 2.5px solid #000;
+    border-radius: 10px;
+    
+}
+
+.success-container {
+    width: 100px;
+    /* height: 60px; */
+    background-color: #ebf6ed;
+    border-radius: 30px;
+    padding: 3px 10px;
+}
+
+.inner-dot {
+    width: 13px;
+    height: 13px;
+    background-color: #32915b;
+    border-radius: 50%;
+}
+
+.success-container small {
+    color: #32915b;
+    font-weight: bold;
+}
+
+.transaction-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+
+.first-container, .second-container {
+    border: .5px solid #aeaeae40;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.first-container-image-container img {
+    display: block;
+    margin: auto;
+}
+
+.first-container hr, .second-container hr {
+    width: 90%;
+    margin: auto;
+}
+
+.second-container {
+    padding: 20px;
+}
+
+.detail-item {
+    margin-bottom: 20px;
+}
+
+.detail-item p {
+    font-weight: bold;
+}
+
+.reference-container small {
+    background-color: #f5f4fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reference-container i {
+    cursor:  pointer;
+}
+
+.close-container {
+    width: 30px;
+    height: 30px;
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
